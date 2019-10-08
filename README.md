@@ -1,3 +1,3 @@
-# simple online Examnation System : version 1 
+# Simple Online Examnation System : version 1 
 
 
