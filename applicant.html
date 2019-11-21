@@ -1,0 +1,425 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <!-- Applicant css -->
+    <link href="applicant.css" rel="stylesheet">
+
+    <title>Hello, world!</title>
+  </head>
+  <body>
+    
+    <div class="container">
+
+<h2>Job Application</h2>
+<p>&nbsp;</p>
+
+<form role="form" method="post">
+
+
+  <fieldset class="form-horizontal">
+    <legend>Personal Information</legend>
+    <div class="form-group row">
+      <label class="col-sm-3 control-label">Name</label>
+      <div class="col-sm-9">
+        <input class="form-control" type="text" name="name">
+      </div>
+    </div>
+    <div class="form-group row">
+      <label class="col-sm-3 control-label">Age</label>
+      <div class="col-sm-9">
+        <input class="form-control" type="text" name="age">
+      </div>
+    </div>
+    <div class="form-group row">
+      <label class="col-sm-3 control-label">Date Of Birth</label>
+      <div class="col-sm-9">
+        <input class="form-control" type="text" name="dateofbirth">
+      </div>
+     </div> 
+    <div class="form-group row">
+      <label class="col-sm-3 control-label">Address</label>
+      <div class="col-sm-9">
+        <input class="form-control" type="text" name="address">
+     </div>
+   </div>
+     <div class="form-group row">
+      <label class="col-sm-3 control-label">Phone</label>
+      <div class="col-sm-9">
+        <input class="form-control" type="text" name="phone">
+     </div>
+   </div>
+      <div class="form-group row">
+      <label class="col-sm-3 control-label">Nationality</label>
+      <div class="col-sm-9">
+        <input class="form-control" type="text" name="nationality">
+     </div>
+    </div>
+     <div class="form-group row">
+      <label class="col-sm-3 control-label">National ID</label>
+      <div class="col-sm-9">
+        <input class="form-control" type="text" name="nationality">
+     </div>
+    </div>
+      <div class="form-group row">
+      <label class="col-sm-3 control-label">Gender</label>
+      <div class="col-sm-9">
+        <select class="form-control" name="gender">
+          <option value="" selected="true">Choose a Gender</option>
+          <option value="Male">Male</option>
+          <option value="Female">Female</option>
+        </select>
+      </div>
+    </div>
+       <div class="form-group row">
+      <label class="col-sm-3 control-label">Marital Status</label>
+      <div class="col-sm-9">
+        <select class="form-control" name="status">
+          <option value="" selected="true">Choose a status</option>
+          <option value="">Single</option>
+          <option value="Female">Married</option>
+          <option value="Male">Engaged</option>
+          <option value="Female">Divorced</option>
+          <option value="Female">Widowed</option>
+          <option value="Female">Separted</option>
+        </select>
+      </div>
+    </div>
+      <div class="form-group row">
+      <label class="col-sm-12 control-label">Do you have kids?</label>
+      <div class="col-sm-offset-1 col-sm-11">
+        <div class="radio">
+          <label>
+            <input type="radio" name="kid" value="yes">Yes
+          </label>
+        </div>
+        <div class="radio">
+          <label>
+            <input type="radio" name="kid" value="no">No
+          </label>
+        </div>
+      </div>
+    </div>
+       <div class="form-group row">
+      <label class="col-sm-12 control-label">Do you have a car?</label>
+      <div class="col-sm-offset-1 col-sm-11">
+        <div class="radio">
+          <label>
+            <input type="radio" name="car" value="yes">Yes
+          </label>
+        </div>
+        <div class="radio">
+          <label>
+            <input type="radio" name="car" value="no">No
+          </label>
+        </div>
+      </div>
+    </div>
+      <div class="form-group row">
+      <label class="col-sm-3 control-label">Position Applied for</label>
+      <div class="col-sm-9">
+        <input class="form-control" type="position" name="position">
+     </div>
+    </div>
+      <div class="form-group row">
+      <label class="col-sm-12 control-label">Have you applied here before?</label>
+      <div class="col-sm-offset-1 col-sm-11">
+        <div class="radio">
+          <label>
+            <input type="radio" name="applied" value="yes">Yes
+          </label>
+        </div>
+        <div class="radio">
+          <label>
+            <input type="radio" name="applied" value="no">No
+          </label>
+        </div>
+      </div>
+    </div>
+       <div class="form-group row">
+      <label class="col-sm-12 control-label">Have you ever worked for this company</label>
+      <div class="col-sm-offset-1 col-sm-11">
+        <div class="radio">
+          <label>
+            <input type="radio" name="workhere" value="yes">Yes
+          </label>
+        </div>
+        <div class="radio">
+          <label>
+            <input type="radio" name="workhere" value="no">No
+          </label>
+        </div>
+      </div>
+    </div>
+       <div class="form-group row">
+      <label class="col-sm-3 control-label">If so when?</label>
+      <div class="col-sm-9">
+        <input class="form-control" type="text" name="when">
+     </div>
+   </div>
+     <div class="form-group row">
+      <label class="col-sm-12 control-label">Are you Employed now</label>
+      <div class="col-sm-offset-1 col-sm-11">
+        <div class="radio">
+          <label>
+            <input type="radio" name="workhere" value="yes">Yes
+          </label>
+        </div>
+        <div class="radio">
+          <label>
+            <input type="radio" name="workhere" value="no">No
+          </label>
+        </div>
+      </div>
+    </div>
+        <div class="form-group row">
+      <label class="col-sm-3 control-label">If so how's your schedule?</label>
+      <div class="col-sm-9">
+        <input class="form-control" type="text" name="when">
+     </div>
+   </div>
+    <div class="form-group row">
+      <label class="col-sm-12 control-label">Are you Studying now</label>
+      <div class="col-sm-offset-1 col-sm-11">
+        <div class="radio">
+          <label>
+            <input type="radio" name="workhere" value="yes">Yes
+          </label>
+        </div>
+        <div class="radio">
+          <label>
+            <input type="radio" name="workhere" value="no">No
+          </label>
+        </div>
+      </div>
+    </div>
+        <div class="form-group row">
+      <label class="col-sm-3 control-label">If so how's your schedule?</label>
+      <div class="col-sm-9">
+        <input class="form-control" type="text" name="when">
+     </div>
+   </div>
+    <div class="form-group row">
+      <label class="col-sm-12 control-label">Type of Employment</label>
+      <div class="col-sm-offset-1 col-sm-11">
+        <div class="checkbox">
+          <label>
+            <input type="checkbox" name="emp_ft" value="Full Time">
+            Full Time
+          </label>
+        </div>
+        <div class="checkbox">
+          <label>
+            <input type="checkbox" name="emp_pt" value="PartTime">
+            PartTime
+          </label>
+        </div>
+        <div class="checkbox">
+          <label>
+            <input type="checkbox" name="emp_sb" value="School Break">
+            School Break
+          </label>
+        </div>
+        <div class="checkbox">
+          <label>
+            <input type="checkbox" name="emp_te" value="Temporary">
+            Temporary
+          </label>
+        </div>
+      </div>
+    </div>
+       <div class="form-group row">
+      <label class="col-sm-3 control-label">Date avaliable to start working</label>
+      <div class="col-sm-9">
+        <input class="form-control" type="Date" name="dateofstart">
+      </div>
+     </div> 
+
+  <p>&nbsp;</p>
+
+  <fieldset>
+    <legend>Education</legend>
+    <div class="form-group row">
+      <label class="col-sm-3 control-label">High School</label>
+      <div class="col-sm-9">
+        <input class="form-control" type="text" name="name">
+      </div>
+    </div>
+    <div class="form-group row">
+      <label class="col-sm-3 control-label">Adress</label>
+      <div class="col-sm-9">
+        <input class="form-control" type="text" name="age">
+      </div>
+    </div>
+
+
+    <div class="form-group row">
+      <label class="col-sm-12 control-label">Are you legally able to be employed in this country?</label>
+      <div class="col-sm-offset-1 col-sm-11">
+        <div class="radio">
+          <label>
+            <input type="radio" name="legal" value="yes">Yes
+          </label>
+        </div>
+        <div class="radio">
+          <label>
+            <input type="radio" name="legal" value="no">No
+          </label>
+        </div>
+      </div>
+    </div>
+    <div class="form-group row">
+      <label class="col-sm-12 control-label">Are you here via a VISA?</label>
+      <div class="col-sm-offset-1 col-sm-11">
+        <div class="radio">
+          <label>
+            <input type="radio" name="legal" value="yes">Yes
+          </label>
+        </div>
+        <div class="radio">
+          <label>
+            <input type="radio" name="legal" value="no">No
+          </label>
+        </div>
+      </div>
+    </div>
+    <div class="form-group row">
+      <label class="col-sm-12 control-label">If you selected yes to the previous question, please tell us which one.</label>
+      <div class="col-sm-9">
+        <input class="form-control" type="text" name="email">
+      </div>
+    </div>
+    <div class="form-group row">
+      <label class="col-sm-12 control-label">What type of position are you seeking? (check all that apply)</label>
+      <div class="col-sm-offset-1 col-sm-11">
+        <div class="checkbox">
+          <label>
+            <input type="checkbox" name="position_pt" value="parttime">
+            Part time
+          </label>
+        </div>
+        <div class="checkbox">
+          <label>
+            <input type="checkbox" name="position_ft" value="fulltime">
+            Full time
+          </label>
+        </div>
+        <div class="checkbox">
+          <label>
+            <input type="checkbox" name="position_sl" value="seasonal">
+            Seasonal
+          </label>
+        </div>
+        <div class="checkbox">
+          <label>
+            <input type="checkbox" name="position_tp" value="temporary">
+            Temporary
+          </label>
+        </div>
+      </div>
+    </div>
+    <div class="form-group row">
+      <label class="col-sm-12 control-label">Hours available</label>
+      <div class="col-sm-12">
+        <table class="table table-bordered">
+          <tbody><tr>
+            <td></td>
+            <th>Sun</th>
+            <th>Mon</th>
+            <th>Tue</th>
+            <th>Wed</th>
+            <th>Thu</th>
+            <th>Fri</th>
+            <th>Sat</th>
+          </tr>
+          <tr>
+            <th>From</th>
+            <td><input class="form-control" type="time" name="su_from"></td>
+            <td><input class="form-control" type="time" name="mo_from"></td>
+            <td><input class="form-control" type="time" name="tu_from"></td>
+            <td><input class="form-control" type="time" name="we_from"></td>
+            <td><input class="form-control" type="time" name="th_from"></td>
+            <td><input class="form-control" type="time" name="fr_from"></td>
+            <td><input class="form-control" type="time" name="sa_from"></td>
+          </tr>
+          <tr>
+            <th>Until</th>
+            <td><input class="form-control" type="time" name="su_until"></td>
+            <td><input class="form-control" type="time" name="mo_until"></td>
+            <td><input class="form-control" type="time" name="tu_until"></td>
+            <td><input class="form-control" type="time" name="we_until"></td>
+            <td><input class="form-control" type="time" name="th_until"></td>
+            <td><input class="form-control" type="time" name="fr_until"></td>
+            <td><input class="form-control" type="time" name="sa_until"></td>
+          </tr>
+        </tbody></table>
+      </div>
+    </div>
+  </fieldset>
+
+  <p>&nbsp;</p>
+
+  <fieldset>
+    <legend>Upload Resume</legend>
+    <div class="form-group">
+      <label class="control-label">Please upload your resume here if you have one.</label>
+    </div>
+    <div class="form-group">
+      <form>
+        <p>Please upload as a PDF file.</p>
+        <p>
+          <input type="file">
+        </p>
+        <p>
+          <input class="btn btn-success btn-mini" type="submit" value="Upload">
+        </p>
+      </form>
+    </div>
+  </fieldset>
+
+  <p>&nbsp;</p>
+
+  <fieldset>
+    <legend>Personal Statement</legend>
+    <div class="form-group">
+      <label class="control-label">Why do you deserve this job?</label>
+      <textarea class="form-control" name="deserve" rows="6"></textarea>
+    </div>
+    <div class="form-group">
+      <label class="control-label">Describe a recent project</label>
+      <textarea class="form-control" name="project" rows="6"></textarea>
+    </div>
+  </fieldset>
+
+  <p>&nbsp;</p>
+
+  <input class="btn btn-primary btn-lg" type="submit" value="Submit form">
+
+  <p>&nbsp;</p>
+
+</form>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  </body>
+</html>
